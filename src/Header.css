@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 10vw;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 65px;
+  min-width: 65px;
+  background-color: white;
+  box-shadow: 0px 6px 10px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header__img {
+  object-fit: contain;
+  width: 100px;
+}
+
+.header__search {
+  display: flex;
+  border: 1px solid black;
+  align-self: center;
+  border-radius: 5px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.header__search > input {
+  height: 35px;
+  width: 50vw;
+  border: none;
+  margin-left: 3px;
+  outline: none;
+}
+
+.header__searchIcon {
+  background-color: #002f34;
+  color: white;
+  padding: 10px;
+}
+
+.header__right {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.header__right > p {
+  display: flex;
+  width: 10vw;
+  height: 9vh;
+  align-items: center;
+}
+
+.header__right > h3 {
+  display: flex;
+  width: 10vw;
+  height: 9vh;
+  align-items: center;
+}
+
+.header__rightSign {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#hello {
+  background-color: #002f34;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#hello:hover {
+  background-color: white;
+  border: 1px solid #002f34;
+  color: #002f34;
+}
+
+#loginout {
+  background-color: #002f34;
+  color: white;
+  margin-left: 10px;
+  height: 30px;
+}

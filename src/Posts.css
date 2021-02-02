@@ -1,0 +1,44 @@
+.posts {
+  display: flex;
+  width: 60vw;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  background-color: rgb(245, 240, 240);
+
+  overflow: hidden;
+}
+.posts > img {
+  height: 200px;
+  width: 200px;
+}
+
+.posts__details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.posts__details > h5 {
+  margin-top: 25px;
+}
+
+.posts__details > h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.posts > button {
+  position: absolute;
+  background-color: #002f34;
+  width: 100px;
+  height: 30px;
+  color: white;
+  transform: translate(25vw, 1vh);
+}
+
+.posts > button:hover {
+  color: #002f34;
+  background-color: white;
+  border: 1px solid #002f34;
+}
